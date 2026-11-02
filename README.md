@@ -11,3 +11,24 @@ Mas vamos ao código:
 ... Repito, é inacreditável o qual esse universo é rico. Meu primeiro repositório, não tenho nem palavras.
 
 Futuramente eu irei adicionar possíveis correções e atualizações.
+
+## 📌 Histórico de Versões & Roadmap
+
+### 🚀 v1.0.0 — Versão Inicial (Atual)
+- [x] Leitura de dados do usuário (`idade`, `saldo` e status de `estudante`).
+- [x] Estrutura condicional (`if/elif/else`) para aplicação de tarifas:
+  - Criança (<= 12 anos): R$ 10,00
+  - Idoso (>= 65 anos): R$ 15,00
+  - Estudante (13 a 64 anos): R$ 20,00
+  - Inteira (13 a 64 anos): R$ 40,00
+- [x] Cálculo automático de troco formatado via f-string.
+
+---
+
+### 🔮 v1.1.0 — Próximas Atualizações (Em breve)
+- [ ] Tratamento de texto com `.lower()` para aceitar 'S' e 's'.
+- [ ] Validação de saldo insuficiente cancelando a compra (`sys.exit()`).
+- [ ] Laço de repetição (`while`) para permitir comprar múltiplos ingressos sem reiniciar o programa.
+
+
+
