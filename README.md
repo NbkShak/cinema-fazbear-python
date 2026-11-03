@@ -26,7 +26,7 @@ Futuramente eu irei adicionar possíveis correções e atualizações.
 ---
 
 ### 🔮 v1.0.1 — Próximas Atualizações (Em breve)
-- [ ] `While` para repetição do menu e deixá-lo dinâmico 
+- [x] `While` para repetição do menu e deixá-lo dinâmico 
 - [ ] Utilização do `for` para múltiplas compras de ingressos. 
 
 
