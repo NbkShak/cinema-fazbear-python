@@ -14,7 +14,7 @@ Futuramente eu irei adicionar possíveis correções e atualizações.
 
 ## 📌 Histórico de Versões & Roadmap
 
-### 🚀 v1.0.0 — Versão Inicial (Atual)
+### 🚀 v1.0.0 — Versão Inicial 
 - [x] Leitura de dados do usuário (`idade`, `saldo` e status de `estudante`).
 - [x] Estrutura condicional (`if/elif/else`) para aplicação de tarifas:
   - Criança (<= 12 anos): R$ 10,00
@@ -25,9 +25,9 @@ Futuramente eu irei adicionar possíveis correções e atualizações.
 
 ---
 
-### 🔮 v1.0.1 — Próximas Atualizações (Em breve)
+### 🔮 v1.0.1 — Atualização
 - [x] `While` para repetição do menu e deixá-lo dinâmico 
-- [ ] Utilização do `for` para múltiplas compras de ingressos. 
+- [x] Utilização do `for` para múltiplas compras de ingressos.
 
 
 
