@@ -25,10 +25,10 @@ Futuramente eu irei adicionar possíveis correções e atualizações.
 
 ---
 
-### 🔮 v1.1.0 — Próximas Atualizações (Em breve)
-- [ ] Tratamento de texto com `.lower()` para aceitar 'S' e 's'.
-- [ ] Validação de saldo insuficiente cancelando a compra (`sys.exit()`).
-- [ ] Laço de repetição (`while`) para permitir comprar múltiplos ingressos sem reiniciar o programa.
+### 🔮 v1.0.1 — Próximas Atualizações (Em breve)
+- [ ] `While` para repetição do menu e deixá-lo dinâmico 
+- [ ] Utilização do `for` para múltiplas compras de ingressos. 
+
 
 
 
