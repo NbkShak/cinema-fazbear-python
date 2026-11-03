@@ -17,21 +17,32 @@ while loop: # sistema de repetição, a partir de idade, entra em loop
  elif (dinheiro < ingresso):
   print("Seu saldo é insuficiente!")
  elif idade >= 65:
+    total = 0
     ingresso = 15
+    quantidade = int(input("Quantos ingressos você quer? "))
     print("Bem vindo idoso!")
     print("Seu ingresso promocional vale R$ 15,00!")
-    print(f"Seu troco:  {dinheiro - ingresso}")
+    for compra in range (quantidade):
+     total = ingresso * quantidade
+    print(f"Seu troco: {dinheiro - total}")
  elif idade >= 12 and idade <= 64 and estudante:
+    total = 0
     ingresso = 20
+    quantidade = int(input("Quantos ingressos você quer? "))
     print("Bem vindo jovem gafanhoto!")
     print("Você paga somente a meia-entrada de R$ 20,00! Aproveite bastante.")
-    print(f"Seu troco {dinheiro - ingresso}")
+    for compra in range (quantidade):
+     total = ingresso * quantidade
+    print(f"Seu troco: {dinheiro - total}")
  elif idade >= 12 and idade <= 64:
+    total = 0
     ingresso = 40
+    quantidade = int(input("Quantos ingressos você quer? "))
     print("Bem vindo!")
     print("O ingresso custa R$ 40,00. Aproveite bastante.")
-    print(f"Seu troco {dinheiro - ingresso}")
+    for compra in range (quantidade):
+     total = ingresso * quantidade
+    print(f"Seu troco: {dinheiro - total}")
  else:
      print("Nenhuma opção encontrada ou sistema fora do ar!")
-
   
